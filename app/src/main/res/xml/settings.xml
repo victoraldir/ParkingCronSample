@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Alarme" >
+        
+        <RingtonePreference 
+            android:key="prefSound"
+            android:title="Toque do Alarme"
+            android:ringtoneType="alarm"
+            android:defaultValue="content://settings/system/notification_sound"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="%content://settings/system/notification_sound">
+        </RingtonePreference>
+
+        <CheckBoxPreference
+            android:key="prefVibrar"
+            android:defaultValue="true"
+            android:summaryOff="Vibrar telefone desativado"
+            android:summaryOn="Vibrar telefone ativado"
+            android:title="Vibrar"
+             >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:key="prefAlarm"
+            android:entryValues="@array/opts_values"
+            android:entries="@array/opts"
+            android:title="Tempo primeiro alarme"
+            android:summary="%s"
+            android:defaultValue="10"
+            />
+
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

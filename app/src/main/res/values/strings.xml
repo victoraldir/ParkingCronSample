@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tempo Estacionamento</string>
+
+    <string name="hello_world">ss</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alarm_called">Tempo termiando...</string>
+
+    <string name="pref_time_chosen">TIME_CHOSEN</string>
+    <string name="pref_user_setting">USER_CONF</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+</resources>
