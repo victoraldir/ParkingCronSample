@@ -1,7 +1,7 @@
 # ParkingCronSample
 The app notifies user about its parking time through alarms notifications.
 
-It is an easy way to keep up informed about the remaining time.
+It is an easy way to keep you informed about the remaining time.
 
 Screenshots
 -------------
