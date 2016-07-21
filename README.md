@@ -1,7 +1,6 @@
 # ParkingCronSample
-The app notifies user about its parking time through alarms notifications.
 
-It is an easy way to keep you informed about the remaining time.
+Avoid being clamped. This utility basically notifies drivers when their parking time is about to run out.
 
 Screenshots
 -------------
